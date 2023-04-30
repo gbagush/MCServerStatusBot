@@ -2,7 +2,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/gbagush/MCServerStatusBot">
-    <img src="https://www.minecraft.net/content/dam/games/minecraft/logos/logo-minecraft.svg" alt="Logo" width="180">
+    <img src="https://i.ibb.co/3fmB6NJ/logo-minecraft.png" alt="Logo" width="180">
   </a>
 
 <h2 align="center">Minecraft Server Status Discord Bot</h2>
