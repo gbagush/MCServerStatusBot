@@ -1,3 +1,9 @@
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
+
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
@@ -87,7 +93,7 @@ Run on Repl.it:
    You can customize the `config.json` file to match your server and Discord webhook settings. Here is an explanation of each field:
 
    * `WEBHOOK_URL`: The URL of the Discord webhook where the server status will be sent.
-   [how to get Webhook URL](https://support.discord.com/hc/en-us/articles/228383668-Intro-to-Webhooks)
+   [check how to get Webhook URL](https://support.discord.com/hc/en-us/articles/228383668-Intro-to-Webhooks)
    * `MESSAGE_ID`: After the bot sends the first message in a Discord channel, the `MESSAGE_ID` in the `config.json` file will be automatically filled.
    * `SERVER_ADDRESS`: The IP address or domain name of your Minecraft server.
    * `SERVER_PORT`: The port number of your Minecraft server. The default port is 25565.
@@ -115,4 +121,17 @@ This bot uses the [mcsrvstat.us](https://mcsrvstat.us/) API.
 <!-- LICENSE -->
 ## License
 
-Distributed under the MIT License. See `LICENSE.txt` for more information.
+Distributed under the MIT License. See `LICENSE` for more information.
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[contributors-shield]: https://img.shields.io/github/contributors/gbagush/MCServerStatusBot.svg?style=for-the-badge
+[contributors-url]: https://github.com/gbagush/MCServerStatusBot/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/gbagush/MCServerStatusBot.svg?style=for-the-badge
+[forks-url]: https://github.com/gbagush/MCServerStatusBot/network/members
+[stars-shield]: https://img.shields.io/github/stars/gbagush/MCServerStatusBot.svg?style=for-the-badge
+[stars-url]: https://github.com/gbagush/MCServerStatusBot/stargazers
+[issues-shield]: https://img.shields.io/github/issues/gbagush/MCServerStatusBot.svg?style=for-the-badge
+[issues-url]: https://github.com/gbagush/MCServerStatusBot/issues
+[license-shield]: https://img.shields.io/github/license/gbagush/MCServerStatusBot.svg?style=for-the-badge
+[license-url]: https://github.com/gbagush/MCServerStatusBot/blob/master/LICENSE
