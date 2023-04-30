@@ -5,7 +5,6 @@ import codecs
 from core.ServerStatus import *
 from core.Webhook import *
 from core.Logger import *
-from core.Table import *
 
 # print header text
 printHeader()
