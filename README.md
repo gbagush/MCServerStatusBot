@@ -44,7 +44,7 @@
 </details>
 
 <!-- ABOUT THE PROJECT -->
-# About The Project
+## About The Project
 This project is a Python script that updates the status of a Minecraft server using the Discord webhook API. It uses the [discord-webhook](https://github.com/lovvskillz/python-discord-webhook) library and the [mcsrvstat.us](https://mcsrvstat.us/) API to retrieve the server status and send it to a designated Discord webhook.
 
 The script's configuration variables can be easily modified to match the server's information and Discord webhook URL. This project is useful for server admins who want to keep their Discord community informed on the server's availability without the need for manual updates.
@@ -52,13 +52,13 @@ The script's configuration variables can be easily modified to match the server'
 Overall, this Python script is a simple and effective way to keep your Discord community up-to-date on your Minecraft server's status.
 
 <!-- DEMO -->
-## Demo
+### Demo
 ![demo](https://i.ibb.co/DVkPwWw/demo.png)
 
 <!-- GETTING STARTED -->
-# Getting Started
+## Getting Started
 
-## Prerequisites
+### Prerequisites
 
 Before using this project, you need to have the following prerequisites:
 
@@ -67,7 +67,7 @@ Before using this project, you need to have the following prerequisites:
 * A Discord account and access to a Discord server where you have permissions to create and manage webhooks.
 * Basic knowledge of Python programming and command line interface.
 
-## Installation
+### Installation
 
 Run on Repl.it:
 
@@ -87,7 +87,7 @@ Run on Repl.it:
    You can customize the `config.json` file to match your server and Discord webhook settings. Here is an explanation of each field:
 
    * `WEBHOOK_URL`: The URL of the Discord webhook where the server status will be sent.
-   [check how to get Webhook URL](https://support.discord.com/hc/en-us/articles/228383668-Intro-to-Webhooks)
+   [how to get Webhook URL](https://support.discord.com/hc/en-us/articles/228383668-Intro-to-Webhooks)
    * `MESSAGE_ID`: After the bot sends the first message in a Discord channel, the `MESSAGE_ID` in the `config.json` file will be automatically filled.
    * `SERVER_ADDRESS`: The IP address or domain name of your Minecraft server.
    * `SERVER_PORT`: The port number of your Minecraft server. The default port is 25565.
@@ -101,20 +101,18 @@ Run on Repl.it:
    python main.py
    ```
 <!-- NOTES -->
-# Notes
+## Notes
 This bot uses the [mcsrvstat.us](https://mcsrvstat.us/) API.
 
 * [mcsrvstat.us](https://mcsrvstat.us/) API is ratelimited to 600 requests per 10 minutes.
 * Try not to exceed this limit. If you do, your bots IP address could be blocked for abuse.
 
 <!-- TO DO -->
-# To Do
+## To Do
 - [ ] Bedrock Server Support
 - [ ] Custom embed message
 
 <!-- LICENSE -->
-# License
+## License
 
-MIT License
-
-Copyright © 2023 - gbagush
+Distributed under the MIT License. See `LICENSE.txt` for more information.
