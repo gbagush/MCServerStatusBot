@@ -37,8 +37,9 @@
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
+    <li><a href="#notes">Notes</a></li>
+    <li><a href="#to-do">To Do</a></li>
     <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
   </ol>
 </details>
 
@@ -107,7 +108,7 @@ This bot uses the [mcsrvstat.us](https://mcsrvstat.us/) API.
 * Try not to exceed this limit. If you do, your bots IP address could be blocked for abuse.
 
 <!-- TO DO -->
-# TO DO
+# To Do
 - [ ] Bedrock Server Support
 - [ ] Custom embed message
 
