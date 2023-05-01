@@ -68,7 +68,7 @@ Overall, this Python script is a simple and effective way to keep your Discord c
 
 Before using this project, you need to have the following prerequisites:
 
-* Python installed on your machine. You can download and install the latest version of Python from the official website: https://www.python.org/downloads/
+* Python3 and Python3-pip installed on your machine.
 * A Minecraft server running on a publicly accessible host with the `enable-query` option set to `true` in the `server.properties` file.
 * A Discord account and access to a Discord server where you have permissions to create and manage webhooks.
 * Basic knowledge of Python programming and command line interface.
@@ -104,7 +104,7 @@ Run on Repl.it:
 
 4. Run the script using Python by running the command
    ```sh
-   python main.py
+   python3 main.py
    ```
 <!-- NOTES -->
 ## Notes
